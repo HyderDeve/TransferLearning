@@ -1,5 +1,3 @@
-Sure, here's a simple README for your GitHub repository:
-
 # Horse & Human Classification Using Transfer Learning
 
 This repository contains code for building and using a deep learning model to classify images of horses and humans. The model uses transfer learning with the Inception V3 architecture.
