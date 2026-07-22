@@ -52,6 +52,7 @@ model = None
 try:
     with st.spinner('Loading Model...'):
         model = load_model('horses_humans_classifier.keras')
+        st.success('Model loaded successfully.')
 
 except Exception as e:
     st.write(f'''Error: Model not found {e}
